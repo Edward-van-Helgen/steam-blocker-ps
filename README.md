@@ -1,4 +1,5 @@
 # steam-blocker-ps
+<<<<<<< HEAD
 
 PowerShell Scripts to block Steam on Windows via Windows Firewall Rules.
 
@@ -35,3 +36,6 @@ cd c:\Users\YourUsername\Downloads\steam-blocker-ps
 - Run `AddSteamBlockerToPSProfile.ps1`.
 - Restart PowerShell by closing the window and opening a new instance as described above.
 - You should now be able to utilize the functions `Block-Steam` and `Unblock-Steam` from anywhere within PowerShell.
+=======
+PowerShell Scripts to block Steam on Windows via Windows Firewall Rules.
+>>>>>>> origin/main
