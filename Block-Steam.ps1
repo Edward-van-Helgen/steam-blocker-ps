@@ -1,0 +1,8 @@
+New-NetFirewallRule -Action block -Program '%ProgramFiles% (x86)\Common Files\Steam\steamservice.exe' -Profile any -Direction Outbound -Displayname 'Block steamservice.exe' -Group 'steam-blocker' | Out-Null
+New-NetFirewallRule -Action block -Program '%ProgramFiles% (x86)\Common Files\Steam\SteamServiceTmp.exe' -Profile any -Direction Outbound -Displayname 'Block SteamServiceTmp.exe' -Group 'steam-blocker' | Out-Null
+New-NetFirewallRule -Action block -Program '%ProgramFiles% (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe' -Profile any -Direction Outbound -Displayname 'Block steamwebhelper.exe' -Group 'steam-blocker' | Out-Null
+New-NetFirewallRule -Action block -Program '%ProgramFiles% (x86)\Steam\steam.exe' -Profile any -direction Outbound -Displayname 'Block steam.exe' -Group 'steam-blocker' | Out-Null
+New-NetFirewallRule -Action block -Program '%ProgramFiles% (x86)\Common Files\Steam\steamservice.exe' -Profile any -Direction Inbound -Displayname 'Block steamservice.exe' -Group 'steam-blocker' | Out-Null
+New-NetFirewallRule -Action block -Program '%ProgramFiles% (x86)\Common Files\Steam\SteamServiceTmp.exe' -Profile any -Direction Inbound -Displayname 'Block SteamServiceTmp.exe' -Group 'steam-blocker' | Out-Null
+New-NetFirewallRule -Action block -Program '%ProgramFiles% (x86)\Steam\bin\cef\cef.win64\steamwebhelper.exe' -Profile any -Direction Inbound -Displayname 'Block steamwebhelper.exe' -Group 'steam-blocker' | Out-Null
+New-NetFirewallRule -Action block -Program '%ProgramFiles% (x86)\Steam\steam.exe' -Profile any -direction Inbound -Displayname 'Block steam.exe' -Group 'steam-blocker' | Out-Null
