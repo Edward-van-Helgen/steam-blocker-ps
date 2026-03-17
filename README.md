@@ -1,4 +1,4 @@
-# <img src="Assets/Icon.png" alt="Icon" style="vertical-align: bottom" width="64"> steam-blocker-ps
+# <img src="Assets/Icon.png" alt="Icon" style="vertical-align: bottom; margin-right: 15px" width="64">steam-blocker-ps
 
 PowerShell Scripts to block Steam on Windows via Windows Firewall Rules so you can ...
 
@@ -7,6 +7,18 @@ PowerShell Scripts to block Steam on Windows via Windows Firewall Rules so you c
 - ... quick toggle (faster than switching to Steam Offline Mode)
 
 ![](Assets/systray.gif)
+
+---
+
+- [steam-blocker-ps](#steam-blocker-ps)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+    - [Run .ps1 script files manually](#run-ps1-script-files-manually)
+    - [Register as Profile functions for easier access](#register-as-profile-functions-for-easier-access)
+    - [Run as SysTray Icon](#run-as-systray-icon)
+      - [Automatically start with Windows](#automatically-start-with-windows)
+
+---
 
 ## Prerequisites
 
