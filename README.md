@@ -1,6 +1,12 @@
-# <img src="Assets/Icon.png" style="vertical-align: bottom" width="64"> steam-blocker-ps
+# <img src="Assets/Icon.png" alt="Icon" style="vertical-align: bottom" width="64"> steam-blocker-ps
 
-PowerShell Scripts to block Steam on Windows via Windows Firewall Rules.
+PowerShell Scripts to block Steam on Windows via Windows Firewall Rules so you can ...
+
+- ... be sure that Offline-Mode is really offline
+- ... prevent being kicked from Steam Family Share
+- ... be faster offline
+
+![](Assets/systray.gif)
 
 ## Prerequisites
 
